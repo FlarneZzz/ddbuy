@@ -8,8 +8,6 @@ public class Arrays {
         List list=new ArrayList<>();
         Integer[] arr={};
         System.out.println(arr.length);
-        /*测试git*/
-        /*再次测试*/
-        /*asdasd*/
+        System.out.println("111");
     }
 }
