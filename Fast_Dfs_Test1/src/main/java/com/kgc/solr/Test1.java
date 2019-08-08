@@ -21,7 +21,6 @@ public class Test1 {
             System.out.println("上传成功,返回信息如下");
             for (String s:infos) {
                 System.out.println(s);
-                /*测试git冲突*/
             }
             //5.关闭
             trackerServer.close();
