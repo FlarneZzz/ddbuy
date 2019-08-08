@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ddbuy_common_interface" />
+        <module name="ddbuy_common_service" />
+        <module name="ddbuy_entity" />
+        <module name="ddbuy_freemarker_test" />
+        <module name="ddbuy_Item_web" />
+        <module name="ddbuy_manager_web" />
+        <module name="ddbuy_mapper" />
+        <module name="ddbuy_protal_web" />
+        <module name="ddbuy_search_web" />
+        <module name="ddbuy_shiro_test" />
+        <module name="ddbuy_solr_test" />
+        <module name="Fast_Dfs_Test1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ddbuy_common_interface" target="1.5" />
+      <module name="ddbuy_common_service" target="1.8" />
+      <module name="ddbuy_entity" target="1.5" />
+      <module name="ddbuy_freemarker_test" target="1.5" />
+      <module name="ddbuy_Item_web" target="1.8" />
+      <module name="ddbuy_manager_web" target="1.8" />
+      <module name="ddbuy_mapper" target="1.5" />
+      <module name="ddbuy_parent" target="1.8" />
+      <module name="ddbuy_protal_web" target="1.8" />
+      <module name="ddbuy_search_web" target="1.8" />
+      <module name="ddbuy_shiro_test" target="1.8" />
+      <module name="ddbuy_solr_test" target="1.5" />
+      <module name="ddbuy_solr_test2" target="1.5" />
+      <module name="dubbo_shiro" target="1.8" />
+      <module name="Fast_Dfs_Test" target="1.5" />
+      <module name="Fast_Dfs_Test1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fast_Dfs_Test1/Fast_Dfs_Test1.iml" filepath="$PROJECT_DIR$/Fast_Dfs_Test1/Fast_Dfs_Test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddbuy_Item_web/ddbuy_Item_web.iml" filepath="$PROJECT_DIR$/ddbuy_Item_web/ddbuy_Item_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddbuy_common_interface/ddbuy_common_interface.iml" filepath="$PROJECT_DIR$/ddbuy_common_interface/ddbuy_common_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddbuy_common_service/ddbuy_common_service.iml" filepath="$PROJECT_DIR$/ddbuy_common_service/ddbuy_common_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddbuy_entity/ddbuy_entity.iml" filepath="$PROJECT_DIR$/ddbuy_entity/ddbuy_entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddbuy_freemarker_test/ddbuy_freemarker_test.iml" filepath="$PROJECT_DIR$/ddbuy_freemarker_test/ddbuy_freemarker_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddbuy_manager_web/ddbuy_manager_web.iml" filepath="$PROJECT_DIR$/ddbuy_manager_web/ddbuy_manager_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddbuy_mapper/ddbuy_mapper.iml" filepath="$PROJECT_DIR$/ddbuy_mapper/ddbuy_mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddbuy_parent.iml" filepath="$PROJECT_DIR$/ddbuy_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddbuy_protal_web/ddbuy_protal_web.iml" filepath="$PROJECT_DIR$/ddbuy_protal_web/ddbuy_protal_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddbuy_search_web/ddbuy_search_web.iml" filepath="$PROJECT_DIR$/ddbuy_search_web/ddbuy_search_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddbuy_shiro_test/ddbuy_shiro_test.iml" filepath="$PROJECT_DIR$/ddbuy_shiro_test/ddbuy_shiro_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddbuy_solr_test/ddbuy_solr_test.iml" filepath="$PROJECT_DIR$/ddbuy_solr_test/ddbuy_solr_test.iml" />
+    </modules>
+  </component>
+</project>
