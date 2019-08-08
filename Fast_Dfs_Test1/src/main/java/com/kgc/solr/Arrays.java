@@ -9,5 +9,7 @@ public class Arrays {
         Integer[] arr={};
         System.out.println(arr.length);
         /*测试git*/
+        /*再次测试*/
+        /*asdasd*/
     }
 }
