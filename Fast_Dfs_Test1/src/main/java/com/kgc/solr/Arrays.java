@@ -8,6 +8,6 @@ public class Arrays {
         List list=new ArrayList<>();
         Integer[] arr={};
         System.out.println(arr.length);
-        System.out.println("1");
+        System.out.println(2);
     }
 }
