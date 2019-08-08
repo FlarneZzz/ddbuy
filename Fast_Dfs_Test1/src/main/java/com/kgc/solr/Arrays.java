@@ -9,6 +9,6 @@ public class Arrays {
         Integer[] arr={};
         System.out.println(arr.length);
         System.out.println("111");
-        /*放入缓存区*/
+        System.out.println("1111");
     }
 }
