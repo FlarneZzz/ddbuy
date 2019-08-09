@@ -5,6 +5,7 @@ import com.kgc.mapper.TbContentCategoryMapper;
 import com.kgc.service.SolrService;
 import com.kgc.service.TbContentCategoryService;
 import com.kgc.service.TbItemService;
+import com.kgc.service.TbUserService;
 import com.kgc.util.DataGridResult;
 import com.kgc.util.Page;
 import org.junit.Test;
@@ -26,6 +27,8 @@ public class DdbuyCommonServiceApplicationTests {
     private SolrService solrService;
     @Autowired
     private TbItemService tbItemService;
+    @Autowired
+    private TbUserService tbUserService;
 
     @Test
     public void contextLoads() {
@@ -51,5 +54,10 @@ public class DdbuyCommonServiceApplicationTests {
     public void freemarkerTest(){
         boolean b = tbItemService.processHtml();
         System.out.println(b);
+    }
+    @Test
+    public void ssoTest(){
+        String wjb = tbUserService.login("tidy", "123");
+        System.out.println("============================="+wjb);
     }
 }

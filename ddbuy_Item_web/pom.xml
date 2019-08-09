@@ -10,7 +10,7 @@
     <groupId>com.kgc</groupId>
     <artifactId>ddbuy_Item_web</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ddbuy_protal_web</name>
+    <name>ddbuy_Item_web</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/ddbuy_search_web/ddbuy_search_web.iml" filepath="$PROJECT_DIR$/ddbuy_search_web/ddbuy_search_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/ddbuy_shiro_test/ddbuy_shiro_test.iml" filepath="$PROJECT_DIR$/ddbuy_shiro_test/ddbuy_shiro_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/ddbuy_solr_test/ddbuy_solr_test.iml" filepath="$PROJECT_DIR$/ddbuy_solr_test/ddbuy_solr_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ddbuy_sso_web/ddbuy_sso_web.iml" filepath="$PROJECT_DIR$/ddbuy_sso_web/ddbuy_sso_web.iml" />
     </modules>
   </component>
 </project>

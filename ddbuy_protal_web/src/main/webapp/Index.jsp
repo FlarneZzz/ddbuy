@@ -30,7 +30,43 @@
     <script type="text/javascript" src="js/tban.js"></script>
     
 	<script type="text/javascript" src="js/lrscroll_1.js"></script>
-    
+    <script type="text/javascript" language="JavaScript">
+        //读取cookie的函数
+        function readCookie(name)
+        {
+            var cookieValue = "";
+            var search = name + "=";
+            if(document.cookie.length > 0)
+            {
+                offset = document.cookie.indexOf(search);
+                if (offset != -1)
+                {
+                    offset += search.length;
+                    end = document.cookie.indexOf(";", offset);
+                    if (end == -1) end = document.cookie.length;
+                    cookieValue = document.cookie.substring(offset, end);
+                }
+            }
+            return cookieValue;
+        }
+    jq(function () {
+
+        //发异步请求获取信息
+        var token=readCookie("token");
+        //访问本系统的控制器请求拿数据没有问题
+        //如果访问是其它子系统的控制器请求获取数所据，存在异步请求跨域问题
+        jq.post("http://localhost:8011/getUserName",{"token":token},function(data){
+            // alert("返回值是:"+data.result);
+            if(data.result==""){
+                jq("#showName").html("<a href='http://localhost:8010/Login.jsp'>请登入</a>");
+            }else
+            {
+                jq("#showName").html("欢迎,"+data.result);
+            }
+        },"json");
+
+    })
+    </script>
     
 <title>尤洪</title>
 </head>
@@ -115,7 +151,7 @@
         </span>
         <!--End 所在收货地区 End-->
         <span class="fr">
-        	<span class="fl">你好，请<a href="Login.html">登录</a>&nbsp; <a href="Regist.html" style="color:#ff4e00;">免费注册</a>&nbsp;|&nbsp;<a href="#">我的订单</a>&nbsp;|</span>
+        <span class="fl"><span id="showName"></span> <a href="Regist.html" style="color:#ff4e00;">免费注册</a>&nbsp;|&nbsp;<a href="#">我的订单</a>&nbsp;|</span>
         	<span class="ss">
             	<div class="ss_list">
                 	<a href="#">收藏夹</a>

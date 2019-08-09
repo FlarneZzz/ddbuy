@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/ddbuy_search_web/pom.xml" />
         <option value="$PROJECT_DIR$/ddbuy_freemarker_test/pom.xml" />
         <option value="$PROJECT_DIR$/ddbuy_Item_web/pom.xml" />
+        <option value="$PROJECT_DIR$/ddbuy_sso_web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
