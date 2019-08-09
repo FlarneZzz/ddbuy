@@ -18,6 +18,10 @@ import java.util.concurrent.TimeUnit;
 public class TbContentServiceImpl implements TbContentService {
     @Autowired(required = false)
     private TbContentMapper tbContentMapper;
+    @Autowired
+    private RedisTemplate redisTemplate;
+
+
     @Override
     public int addContent(TbContent tbContent) {
         int temp=-1;
@@ -31,8 +35,7 @@ public class TbContentServiceImpl implements TbContentService {
     }
 
     //redis缓存 缓存中有就从缓存中拿,没有就从数据库中查,然后设置到缓存中
-    @Autowired
-    private RedisTemplate redisTemplate;
+
     @Override
     public List<TbContent> getAllTbContent() {
         List<TbContent> tbcontent=null;

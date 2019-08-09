@@ -57,6 +57,7 @@ public class SolrServiceImpl implements SolrService {
             List<SolrProduct> list = reponse.getBeans(SolrProduct.class);
             //获取总行数(总记录数)
             long totalRecords = reponse.getResults().getNumFound();
+            //获取总页数
             int totalPage =(int) Math.ceil(totalRecords * 1.0 / pageSize);
               map=new HashMap<>();
               map.put("rows",list);
